@@ -24,12 +24,19 @@ It allows users to browse auction items, search & filter by category, status, or
 ## 📂 Project Structure
 
 src/
+
 ├─ app/ # Next.js app directory (routes, layouts, pages)
+
 ├─ components/ # Reusable UI components
+
 ├─ context/ # React Context providers (AuctionProvider)
+
 ├─ hooks/ # Custom React hooks (useFavorites, useAuctionData)
+
 ├─ lib/ # Utilities, constants, helper functions
+
 ├─ types/ # TypeScript types (AuctionItem, Filters, etc.)
+
 └─ public/ # Static assets (placeholder images, etc.)
 
 ---
