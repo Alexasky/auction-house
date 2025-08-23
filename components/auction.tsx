@@ -10,7 +10,7 @@ import { formatDate, formatPrice } from '@/lib/auction-utils';
 import { Badge } from './ui/badge';
 import { useState } from 'react';
 import { getStatusColor, getStatusText } from '@/lib/auction-helpers';
-import { useAuction } from '@/context/auctionContext';
+import { useAuction } from '@/context/auction-context';
 
 export const Auction = ({item}: {item: AuctionItem} ) => {
   const { favorites, toggleFavorite } = useAuction();

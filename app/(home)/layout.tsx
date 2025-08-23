@@ -3,7 +3,7 @@ import type { Metadata } from "next"
 import { Playfair_Display, Source_Sans_3 } from "next/font/google"
 import "../globals.css"
 import { Header } from '@/components/header'
-import { AuctionProvider } from '@/context/auctionContext'
+import { AuctionProvider } from '@/context/auction-context'
 
 const playfair = Playfair_Display({
   subsets: ["latin"],

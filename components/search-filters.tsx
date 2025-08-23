@@ -136,10 +136,8 @@ export function SearchFilters({ items, filters, onFiltersChange, resultCount }: 
 
         <Popover open={isFilterOpen} onOpenChange={setIsFilterOpen}>
           <PopoverTrigger asChild>
-            <Button variant="outline" className="relative h-9 focus-visible-ring bg-transparent">
-              <SlidersHorizontal className="w-4 h-4 mr-2" />
-              <span className="hidden sm:inline">Price Filter</span>
-              <span className="sm:hidden">Price</span>
+            <Button variant="outline" className="relative h-9 focus-visible-ring bg-transparent w-full justify-start sm:w-auto sm:justify-center">
+              <span>Price Filter</span>
             </Button>
           </PopoverTrigger>
           <PopoverContent className="w-80" align="start">
@@ -177,7 +175,7 @@ export function SearchFilters({ items, filters, onFiltersChange, resultCount }: 
         <Button
           variant="outline"
           onClick={handleFavoritesChange}
-          className="shrink-0 focus-visible-ring bg-transparent"
+          className="shrink-0 focus-visible-ring bg-transparent w-full justify-start sm:w-auto sm:justify-center"
           title='Favorite Filter'
         >
           <Heart className={`w-4 h-4 ${filters.favoritesOnly ? "fill-current text-primary" : ""}`} />

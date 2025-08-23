@@ -9,7 +9,7 @@ import Link from 'next/link'
 import LazyImage from './lazy-image'
 import { getStatusColor, getStatusText } from '@/lib/auction-helpers';
 import { Button } from './ui/button';
-import { useAuction } from '@/context/auctionContext';
+import { useAuction } from '@/context/auction-context';
 
 
 interface AuctionItemCardProps {

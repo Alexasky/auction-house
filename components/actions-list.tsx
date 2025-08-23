@@ -5,7 +5,7 @@ import { AuctionItem, SearchFilters } from '@/types/auction';
 import { useMemo, useState } from 'react';
 import { AuctionGrid } from './auction-grid';
 import { SearchFilters as SearchFiltersComponent } from './search-filters';
-import { useAuction } from '@/context/auctionContext';
+import { useAuction } from '@/context/auction-context';
 
 export const ActionsList = ({items}: {items: AuctionItem[]}) => {
 	const {favorites} = useAuction();
